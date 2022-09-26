@@ -1,0 +1,184 @@
+body {
+    background-color: black;
+}
+
+.wd-main-container {
+    border-color: rgb(47, 51, 54);
+    border: 10px 10px 20px 20px;
+    height: 1100px;
+    width: 600px;
+    margin-left: 20px;
+    border-style: solid;
+}
+
+.spacing {
+    margin-left: 16px;
+}
+
+.wd-main-text {
+    top: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.length {
+
+    height: 542px;
+
+}
+
+.wd-B,
+.wd-C {
+    width: 100%;
+    clear: both;
+}
+
+.wd-handle-text {
+    font-size: 13px;
+    color: lightgrey;
+    margin-bottom: 12px;
+}
+
+.wd-D,
+.wd-E {
+    width: 100%;
+    clear: both;
+    height: 120px;
+}
+
+.wd-link-list>thead>tr>th {
+    width: 15%;
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-empty-space {
+    height: 10px;
+    /* background-color: rgb(113, 118, 123); */
+    border-top: 2px solid rgb(47, 51, 54);
+    border-bottom: 2px solid rgb(47, 51, 54);
+}
+
+.wd-trending {
+    color: white;
+    clear: both;
+}
+
+.wd-topic {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    padding: 5px 0px;
+}
+
+.wd-post-topic {
+    font-size: 14px;
+    color: white;
+    padding: 5px 0px;
+    font-weight: 900;
+}
+
+.wd-title {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.wd-break-line {
+    border-top: 1px solid rgb(47, 51, 54);
+}
+
+.wd-post-text {
+    color: white;
+    max-width: 506px;
+    font-size: 15px;
+    margin: 0px 16px;
+}
+
+.wd-post-img {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding: 10px 0px;
+}
+
+.wd-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 16px;
+    border-radius: 12px;
+}
+
+.wd-avatar {
+    /* width: 10%; */
+    float: left;
+}
+
+.wd-bookmark-post {
+    width: 90%;
+    float: left;
+}
+
+.wd-avatar {
+    vertical-align: middle;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+.wd-author {
+    color: white;
+    margin-left: 16px;
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+.wd-handler {
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.wd-bm-img {
+    vertical-align: middle;
+    width: 504px;
+    height: 264px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-img-content {
+
+    width: 504px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-img-below-text {
+    color: white;
+    margin-top: 12px;
+    font-size: 15px;
+    padding: 0px 12px;
+}
+
+.wd-dummy-text {
+    color: rgb(113, 118, 123);
+    margin-bottom: 12px;
+}
+
+.wd-link-list>thead>tr>th {
+    /* width: 15%; */
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+}
