@@ -253,7 +253,7 @@ p#id-selector-2 {
 }
 
 .rotate-ord-list {
-    transform: rotate(42deg);
+    transform: rotate(-42deg);
     width: 100px;
     background-color: red;
     color: white;
@@ -344,6 +344,20 @@ p#id-selector-2 {
     color: white;
     /* animation-iteration-count: infinite;
     animation-direction: alternate; */
+
+}
+
+.animation-keyframes-2 {
+    position: relative;
+    top: 0px;
+    animation-duration: 1s;
+    animation-name: slidein;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    color: white;
+    /* animation-iteration-count: infinite;*/
+    animation-direction: reverse;
 
 }
 
@@ -451,8 +465,15 @@ p#id-selector-2 {
     display: flex;
 }
 
-.flex-container>.flex-box {
+.flex-container-100>.flex-box {
     flex-basis: 100%;
+
+}
+
+.flex-container-100 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
