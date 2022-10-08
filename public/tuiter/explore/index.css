@@ -1,5 +1,5 @@
 .wd-row {
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 .wd-icon-text {
@@ -35,7 +35,6 @@
 }
 
 .wd-tweet {
-    margin-top: 10px;
     border-radius: 30px;
 }
 
@@ -50,17 +49,26 @@
     white-space: nowrap;
 }
 
-@media (min-width:992px) and (max-width: 1336px) {
+/* @media (max-width:992px) {
     .row>.col-lg-2 {
         width: 100px !important;
     }
-}
+} */
 
 .top-none {
     margin-top: -10px;
 }
 
 .img-size {
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 5px;
+}
+
+.row-spacing {
+    --bs-gutter-x: 0.5rem;
+}
+.overlap-text{
+    z-index: 0;
 }
