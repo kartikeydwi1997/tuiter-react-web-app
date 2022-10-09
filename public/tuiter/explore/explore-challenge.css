@@ -122,3 +122,11 @@ body {
 .icon-pos {
     margin-left: -13px;
 }
+
+.list-radius {
+    border-radius: 20px;
+}
+
+.service-text {
+    font-size: 12px;
+}
