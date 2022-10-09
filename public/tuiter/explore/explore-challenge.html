@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="index.css" rel="stylesheet" />
+    <link href="explore-challenge.css" rel="stylesheet" />
 
 </head>
 
@@ -27,22 +27,24 @@
         <div class="row wd-row row-spacing">
             <div class="col-12 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
                 <div class="col">
-                    <ul class="p-0">
-                        <li class="list-group-item "><i class="fa-brands fa-twitter"></i></li>
-                        <li class="list-group-item wd-list-flex">
+                    <ul class="p-0 ">
+                        <li class="list-group-item bg-black text-white mb-3">
+                            <h2><i class="fa-solid fa-t "></i></h2>
+                        </li>
+                        <li class="list-group-item wd-list-flex bg-black text-white mb-3">
                             <i class="fa-solid fa-house-chimney wd-icon"></i>
                             <div class="d-none d-xl-block wd-icon-text">Home</div>
                         </li>
 
-                        <li class="list-group-item wd-list-flex active">
+                        <li class="list-group-item wd-list-flex bg-black text-white mb-3">
                             <i class="fa-regular fa-hashtag wd-icon"></i>
                             <div class=" d-none d-xl-block wd-icon-text">Explore</div>
                         </li>
-                        <li class="list-group-item wd-list-flex">
-                            <i class="fa-solid fa-bell wd-icon"></i>
+                        <li class="list-group-item wd-list-flex bg-black text-white mb-3">
+                            <i class="fa-regular fa-bell wd-icon"></i>
                             <div class="d-none d-xl-block wd-icon-text">Notifications</div>
                         </li>
-                        <li class="list-group-item wd-list-flex">
+                        <li class="list-group-item wd-list-flex bg-black text-white mb-3">
                             <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-envelope-fill" viewBox="0 0 16 16">
                                     <path
@@ -51,19 +53,19 @@
                             </div>
                             <div class="d-none d-xl-block wd-icon-text">Messages</div>
                         </li>
-                        <li class="list-group-item wd-list-flex">
-                            <i class="fa-solid fa-bookmark wd-icon"></i>
+                        <li class="list-group-item wd-list-flex bg-black text-white mb-3">
+                            <i class="fa-regular fa-bookmark wd-icon"></i>
                             <div class="d-none d-xl-block wd-icon-text">Bookmarks</div>
                         </li>
-                        <li class="list-group-item wd-list-flex">
-                            <i class="fa-sharp fa-solid fa-list wd-icon"></i>
+                        <li class="list-group-item wd-list-flex bg-black text-white mb-3">
+                            <i class="fa fa-list wd-icon"></i>
                             <div class="d-none d-xl-block wd-icon-text">Lists</div>
                         </li>
-                        <li class="list-group-item wd-list-flex">
-                            <i class="fa-solid fa-user wd-icon"></i>
+                        <li class="list-group-item wd-list-flex bg-black text-white mb-3">
+                            <i class="fa-regular fa-user wd-icon"></i>
                             <div class="d-none d-xl-block wd-icon-text">Profile</div>
                         </li>
-                        <li class="list-group-item wd-list-flex">
+                        <li class="list-group-item wd-list-flex bg-black text-white mb-3">
                             <span class="icon-place icon-pos">
                                 <i class="fa-regular fa-circle fa-stack-1x"></i>
                                 <i class="fa fa-ellipsis fa-stack-1x fa-inverse"></i>
@@ -73,129 +75,112 @@
                         </li>
 
                     </ul>
-                    <ul class="list-group ">
-                        <button class=" btn btn-primary wd-tweet">
-                            Tweet
+                    <ul class="list-group mt-4 ">
+                        <button class=" btn btn-primary wd-tweet tuit-bg">
+                            Tuit
                         </button>
                     </ul>
                 </div>
             </div>
-            <div class="col-12 col-sm-10 col-md-9 col-lg-7 col-xl-6 col-xxl-6">
+            <div class="col-12 col-sm-10 col-md-9 col-lg-7 col-xl-6 col-xxl-6 px-2">
 
 
-                <div class="px-2 mt-0">
-                    <div class="row top-none">
+                <div class="mt-0 border-full">
+                    <div class="row top-none ps-3 pe-3">
                         <div class="col-12 col-sm-11 col-md-11 col-lg-11 col-xl-11 col-xxl-11">
-                            <div class="input-group wd-A-input">
-                                <span class="input-group-text wd-btn-grp border-end-0"> <i
+                            <div class="input-group wd-A-input ">
+                                <span class="input-group-text wd-btn-grp border-end-0 input-bg border-0"> <i
                                         class="fa-solid fa-magnifying-glass"></i></span>
                                 <input type="text" placeholder="Search Twitter"
-                                    class="form-control wd-A-input border-start-0">
+                                    class="form-control wd-A-input input-bg border-start-0">
                             </div>
                         </div>
-                        <div class="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1 bg-color-green">
+                        <div class="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
                             <span>
-                                <h3><i class="fa-solid fa-gear wd-settings-icon text-primary"></i>
+                                <h3><i class="fa-solid fa-gear wd-settings-icon text-primary text-white"></i>
                             </span></h3>
                         </div>
                     </div>
-                    <ul class="nav nav-tabs mb-2 pt nav-fill">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./pages/for-you.html">For you</a>
+                    <ul class="nav nav-tabs nav-fill border-bottom-0">
+                        <li class="nav-item ">
+                            <a class="nav-link text-secondary fw-bolder" href="./pages/for-you.html">For you</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/trending.html">Trending</a>
+                            <a class="nav-link text-secondary fw-bolder" href="./pages/trending.html">Trending</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/news.html">News</a>
+                            <a class="nav-link text-secondary fw-bolder" href="./pages/news.html">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/sports.html">Sports</a>
+                            <a class="nav-link text-secondary fw-bolder" href="./pages/sports.html">Sports</a>
                         </li>
                         <li class="nav-item d-none d-md-block ">
-                            <a class="nav-link" href="./pages/entertainment.html">Entertainment</a>
+                            <a class="nav-link text-secondary fw-bolder" href="./pages/entertainment.html"><span
+                                    class="last-link-tab">Entertainment</span></a>
                         </li>
                     </ul>
-                    <div class="card">
+                    <div class="card rounded-0 border-dark border-top border-2">
                         <div class="position-relative">
-                            <img src="../explore/images/ship.webp" class="card-img-top" alt="...">
-                            <div class="position-absolute bottom-0 start-0 text-light fs-3 p-2 fw-bolder">SpaceX's
-                                Starship</div>
-                        </div>
-                    </div>
-                    <div class="card rounded-0">
-                        <div class="card-body">
-                            <h5 class="card-title text-secondary">Web Development</h5>
-                            <div class="row">
-                                <div class="col-9">
-                                    <div class="wd-list-flex">
-                                        <div class="fs-6 fw-bolder">REACTJS</div> <span class="px-2"><i
-                                                class="fa-solid fa-circle-check"></i></span>
-                                        <span class="px-2 text-secondary">- 2h</i></span>
-                                    </div>
-                                    <div class="fw-bolder">React.js is a component based front end library that makes it
-                                        very easy to build Single Page Applications or SPAs</div>
-                                </div>
-                                <div class="col-3 text-end">
-                                    <img src="../explore/images/react_logo.svg" class="img-fluid rounded img-size-main"
-                                        alt="logo">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card rounded-0">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-9">
-                                    <div class="wd-list-flex">
-                                        <div class="fs-6 fw-bolder">JavaScript</div> <span class="px-2"><i
-                                                class="fa-solid fa-circle-check"></i></span>
-                                        <span class="px-2 text-secondary">- 2h</i></span>
-                                    </div>
-                                    <div class="fw-bolder">JavaScript is programming language that can run on browsers
-                                        as
-                                        well as desktops</div>
-                                    <span class=" text-secondary">123K Tweets</i></span>
-                                </div>
-                                <div class="col-3 text-end">
-                                    <img src="../explore/images/js_logo.png" class="img-fluid rounded img-size-main"
-                                        alt="logo">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card rounded-0">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-9">
-                                    <div class="wd-list-flex">
-                                        <div class="fs-6 text-secondary">Web Development</div>
-                                    </div>
-                                    <div class="fw-bolder">jQuery</div>
-                                    <span class="text-secondary">123K Tweets</i></span>
-                                </div>
-                                <div class="col-3 text-end">
-                                    <img src="../explore/images/jquery_logo.png" class="img-fluid rounded img-size-main"
-                                        alt="logo">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card rounded-0">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-9">
+                            <img src="../explore/images/bts_img.jpeg" class="card-img-top" alt="...">
 
-                                    <div class="fs-6 text-secondary">Web Development</div>
+                            <div class="position-absolute bottom-0 start-0 text-light  fw-lighter fs-6 p-2 ">Music .
+                                Last night
+                                <br>
+                                <span class="fw-bolder fs-3">
+                                    BTS and Coldplay release their new song, My Universe
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card rounded-0 bg-black ">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-9">
                                     <div class="wd-list-flex">
-                                        <div class="fs-6 fw-bolder">NodeJS</div> <span class="px-2"><i
-                                                class="fa-solid fa-circle-check"></i></span>
-                                        <span class="px-2 text-secondary">- 2h</i></span>
+                                        <div class="fs-6 text-secondary">Trending in R&B & soul</div>
                                     </div>
-                                    <span class="text-secondary">123K Tweets</i></span>
+                                    <div class="fw-bolder text-white">R Kelly</div>
+                                    <span class="text-secondary">18.2 Tuits</i></span>
                                 </div>
-                                <div class="col-3 text-end">
-                                    <img src="../explore/images/node_logo.png" class="img-fluid rounded img-size-main"
+                                <div class="col-3 text-end text-white">
+                                    <i class="fa fa-ellipsis"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-0 bg-black ">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-9">
+                                    <div class="wd-list-flex">
+                                        <div class="fs-6 text-secondary">Trending in R&B & soul</div>
+                                    </div>
+                                    <div class="fw-bolder text-white">Chloe</div>
+                                    <span class="text-secondary">Trending with <span
+                                            class="halle-text">Halle</span></i></span>
+                                </div>
+                                <div class="col-3 text-end text-white">
+                                    <i class="fa fa-ellipsis"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card rounded-0 bg-black">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-10">
+
+                                    <div class="fs-6 text-secondary">The Times</div>
+                                    <div class="wd-list-flex">
+                                        <div class="fs-6 fw-bolder text-white">The Times</div> <span
+                                            class="px-2 text-white"><i class="fa-solid fa-circle-check"></i></span>
+                                        <span class="px-1 text-secondary">. September 24, 2021</i></span>
+                                    </div>
+                                    <span class="text-white fw-bolder">Stanley Tucci: 'Foor or sex? That's the cruellest question...'</span>
+                                </div>
+                                <div class="col-2 text-end">
+                                    <img src="../explore/images/satya_img.webp" class="img-fluid rounded "
                                         alt="logo">
                                 </div>
                             </div>

@@ -18,15 +18,14 @@
     float: left;
     border-radius: 40px;
     padding: 10px 0px;
-    color: white;
+    border: none;
+
 }
 
 .wd-btn-grp {
     border-top-left-radius: 40px !important;
     border-bottom-left-radius: 40px !important;
-    /* border: none; */
-    background: white;
-    /* border: transparent; */
+
 }
 
 .wd-settings-icon {
@@ -42,7 +41,6 @@
     width: 60px;
     height: 60px;
 }
-
 
 
 .img-no-wrap {
@@ -66,6 +64,50 @@
 
 .overlap-text {
     z-index: 0;
+}
+
+body {
+    background: black;
+
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.tuit-bg {
+    background: #1DA1F2;
+
+}
+
+.halle-text {
+    color: #1DA1F2;
+}
+
+.input-bg {
+    background-color: #16191D;
+
+}
+
+.input-bg:focus {
+    background-color: #16191D;
+    border: none;
+    outline: 0px black;
+    color: white;
+}
+
+.last-link-tab {
+    border-bottom: 10px solid #1DA1F2;
+    padding-bottom: 7px;
+}
+
+.border-full {
+    border-left: 1px solid #606060;
+    border-right: 1px solid #606060;
+}
+
+.border-card {
+    border-left: 1px solid #606060;
 }
 
 .icon-place {
