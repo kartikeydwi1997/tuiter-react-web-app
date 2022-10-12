@@ -34,9 +34,6 @@
     padding: 20px 0px;
 }
 
-.wd-tweet {
-    border-radius: 30px;
-}
 
 .img-size-main {
     width: 60px;
@@ -79,4 +76,13 @@
 
 .icon-pos {
     margin-left: -13px;
+    margin-top: -4px;
+}
+
+.wd-tweet {
+    border-radius: 30px;
+}
+
+.wd-icon-width {
+    width: 15px;
 }
