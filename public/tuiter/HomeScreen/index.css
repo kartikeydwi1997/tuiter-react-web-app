@@ -24,9 +24,7 @@
 .wd-btn-grp {
     border-top-left-radius: 40px !important;
     border-bottom-left-radius: 40px !important;
-    /* border: none; */
     background: white;
-    /* border: transparent; */
 }
 
 .wd-settings-icon {
@@ -55,6 +53,7 @@
     height: 50px;
     object-fit: cover;
     margin-left: 5px;
+    float:left;
 }
 
 .row-spacing {
@@ -85,4 +84,18 @@
 
 .wd-icon-width {
     width: 15px;
+}
+
+.wd-clear {
+    clear: both;
+}
+.wd-mx-5{
+
+    margin-right: 4rem!important;
+    margin-left: 4rem!important;
+
+}
+.img-size-main {
+    width: 80px;
+    height: 80px;
 }

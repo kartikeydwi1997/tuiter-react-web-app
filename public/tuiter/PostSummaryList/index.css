@@ -1,0 +1,8 @@
+.wd-list-flex {
+    display: flex;
+}
+.img-size-main {
+    width: 80px;
+    height:80px;
+    margin-top: 30px;
+}

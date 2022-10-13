@@ -1,5 +1,6 @@
 .wd-icon-text {
     margin-left: 10px;
+    
 }
 
 .wd-icon {
@@ -30,4 +31,8 @@
 
 .wd-icon-width {
     width: 15px;
+}
+
+.bg-black {
+    background-color: black;
 }
