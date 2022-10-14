@@ -13,8 +13,8 @@ const ExploreComponent = () => {
         </div>
         <div class="col-12 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1 bg-color-green">
             <span>
-                <h3><i class="fa-solid fa-gear wd-settings-icon text-primary"></i>
-            </span></h3>
+                <h4><i class="fa-solid fa-gear wd-settings-icon text-primary"></i>
+            </span></h4>
         </div>
     </div>
     
