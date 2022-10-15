@@ -1,50 +1,50 @@
 const NavigationSidebar = (active) => {
   const tabs = [
     {
-      "icon": "fa-solid fa-t",
-      "title": "",
-      "href": "/",
+      icon: "bi bi-align-top",
+      title: "Tuiter",
+      href: "/",
     },
     {
-      "icon": "fa-solid fa-house",
-      "title": "Home",
-      "href": "/tuiter/HomeScreen/index.html",
+      icon: "bi bi-house-door-fill",
+      title: "Home",
+      href: "/tuiter/home",
     },
     {
-      "icon": "fa fa-hashtag",
-      "title": "Explore",
-      "href": "/tuiter/ExploreScreen/index.html"
+      icon: "bi bi-hash",
+      title: "Explore",
+      href: "/tuiter/explore",
     },
     {
-      "icon": "fa-solid fa-bell",
-      "title": "Notifications",
-      "href": "/"
+      icon: "bi bi-bell-fill",
+      title: "Notifications",
+      href: "/",
     },
     {
-      "icon": "fa-solid fa-envelope",
-      "title": "Messages",
-      "href": "/",
+      icon: "bi bi-envelope-fill",
+      title: "Messages",
+      href: "/",
     },
     {
-      "icon": "fa-solid fa-bookmark",
-      "title": "Bookmarks",
-      "href": "/tuiter/bookmarks/index.html",
+      icon: "bi bi-bookmark-fill",
+      title: "Bookmarks",
+      href: "/",
     },
     {
-      "icon": "fa-solid fa-list",
-      "title": "Lists",
-      "href": "/",
+      icon: "bi bi-list-ul",
+      title: "Lists",
+      href: "/",
     },
     {
-      "icon": "fa-solid fa-user",
-      "title": "Profile",
-      "href": "/tuiter/profile.html",
+      icon: "bi bi-person-fill",
+      title: "Profile",
+      href: "/",
     },
     {
-      "icon": "fa-solid fa-circle",
-      "title": "More",
-      "href": "/",
-    }
+      icon: "bi bi-filter-circle-fill",
+      title: "More",
+      href: "/",
+    },
   ];
   return (`
   <div class="list-group">

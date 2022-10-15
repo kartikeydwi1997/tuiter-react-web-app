@@ -1,0 +1,16 @@
+.img-size {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    float: left;
+}
+
+.wd-clear {
+    clear: both;
+}
+.wd-mx-5{
+
+    margin-right: 4rem!important;
+    margin-left: 4rem!important;
+
+}

@@ -7,7 +7,7 @@ const PostItem = (post) => {
             <p class="card-title fs-6 fw-bolder" >${post.title}</p>
             <p class="card-text text-secondary">${post.details}</p>
             <a href="#" class="text-secondary" style="text-decoration: none;">
-                <i class="fa-solid fa-link"></i> ${post.URL}
+                ${post.URL}
             </a>
         </div>
     </div>

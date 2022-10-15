@@ -1,0 +1,17 @@
+[
+    {
+        "avatarIcon": "/images/nasa_logo.png",
+        "userName": "NASA",
+        "handle": "NASA"
+    },
+    {
+        "avatarIcon": "/images/tesla.png",
+        "userName": "Tesla",
+        "handle": "Tesla"
+    },
+    {
+        "avatarIcon": "/images/spaceX_logo.jpeg",
+        "userName": "SpaceX",
+        "handle": "SpaceX"
+    }
+]

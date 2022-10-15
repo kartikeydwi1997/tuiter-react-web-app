@@ -11,3 +11,113 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wd-row {
+  margin-top: 10px;
+}
+
+.wd-icon-text {
+  margin-left: 10px;
+}
+
+.wd-icon {
+  margin-top: 3px;
+}
+
+.wd-list-flex {
+  display: flex;
+}
+
+.wd-A-input {
+  float: left;
+  border-radius: 40px;
+  padding: 10px 0px;
+  color: white;
+}
+
+.wd-btn-grp {
+  border-top-left-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+  background: white;
+}
+
+.wd-settings-icon {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+
+.img-size-main {
+  width: 60px;
+  height: 60px;
+}
+
+
+
+.img-no-wrap {
+  white-space: nowrap;
+}
+
+.top-none {
+  margin-top: -10px;
+}
+
+.img-size {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-left: 5px;
+  float: left;
+}
+
+.row-spacing {
+  --bs-gutter-x: 0.5rem;
+}
+
+.overlap-text {
+  z-index: 0;
+}
+
+.icon-place {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5em;
+}
+
+.icon-pos {
+  margin-left: -13px;
+  margin-top: -4px;
+}
+
+.wd-tweet {
+  border-radius: 30px;
+}
+
+.wd-icon-width {
+  width: 15px;
+}
+
+.wd-clear {
+  clear: both;
+}
+
+.wd-mx-5 {
+
+  margin-right: 4rem !important;
+  margin-left: 4rem !important;
+
+}
+
+.img-size-main {
+  width: 80px;
+  height: 80px;
+}
+.img-size {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  float: left;
+}
