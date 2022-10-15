@@ -1,7 +1,7 @@
 const PostItem = ({ post }) => {
     return (
         <li className="list-group-item p-3 bg-transparent">
-            <img src={`/images/${post.avatarIcon}`} style={{ height: '45px' }} className="img-fluid img-size rounded-circle" />
+            <img src={`/images/${post.avatarIcon}`} style={{ height: '45px' }} className="img-fluid img-size rounded-circle" alt="avatar" />
             <div className="col col-xl-9 ps-2 mb-2 float-start" >
                 <strong>{post.userName}</strong>
                 <span><i className="fa-solid fa-circle-check"></i></span>
@@ -17,13 +17,14 @@ const PostItem = ({ post }) => {
                     post.title !== "" && post.details !== "" && post.URL !== ""
                         ? "card-img-top"
                         : "card-img-top rounded-bottom"
+
                 }
-                    alt="post image" />
+                    alt="post" />
                 {post.title !== "" && post.details !== "" && post.URL !== "" ?
                     <div className="card-body">
                         <p className="card-title fs-6 fw-bolder" >{post.title}</p>
                         <p className="card-text text-secondary">{post.details}</p>
-                        <a href="#" className="text-secondary" style={{ textDecoration: "none" }}>
+                        <a href={post.url} className="text-secondary" style={{ textDecoration: "none" }}>
                             {post.URL}
                         </a>
                     </div> : <></>}
