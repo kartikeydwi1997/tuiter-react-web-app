@@ -7,35 +7,33 @@ const NavigationSidebar = () => {
 
     return (
         <div className="list-group">
-            {/* {tabs.map((tab, i) => {
-                return ( */}
-            <Link to={"/"} className={`list-group-item ${active == "Tuiter".toLowerCase() ? "active" : ""}`} >
+            <Link to={"/"} className={`list-group-item ${active === "Tuiter".toLowerCase() ? "active" : ""}`} >
                 <i className="bi bi-align-top wd-icon-width  mt-1"></i> Tuiter
             </Link>
-            <Link to={"/tuiter/home"} className={`list-group-item ${active == "Home".toLowerCase() ? "active" : ""}`} >
+            <Link to={"/tuiter/home"} className={`list-group-item ${active === "Home".toLowerCase() ? "active" : ""}`} >
                 <i className="bi bi-house-door-fill wd-icon-width  mt-1"></i> Home
             </Link>
 
-            <Link to={"/tuiter/explore"} className={`list-group-item ${active == "Explore".toLowerCase() ? "active" : ""}`} >
+            <Link to={"/tuiter/explore"} className={`list-group-item ${active === "Explore".toLowerCase() ? "active" : ""}`} >
                 <i className="bi bi-hash wd-icon-width  mt-1"></i> Explore
             </Link>
-            <Link to={"/"} className={`list-group-item ${active == "Notifications".toLowerCase() ? "active" : ""}`}>
+            <Link to={"/"} className={`list-group-item ${active === "Notifications".toLowerCase() ? "active" : ""}`}>
                 <i className="bi bi-bell-fill wd-icon-width  mt-1"></i> Notifications
             </Link>
-            <Link to={"/"} className={`list-group-item ${active == "Messages".toLowerCase() ? "active" : ""}`} >
+            <Link to={"/"} className={`list-group-item ${active === "Messages".toLowerCase() ? "active" : ""}`} >
                 <i className="bi bi-envelope-fill wd-icon-width  mt-1"></i> Messages
             </Link>
-            <Link to={"/"} className={`list-group-item ${active == "Bookmarks".toLowerCase() ? "active" : ""}`} >
+            <Link to={"/"} className={`list-group-item ${active === "Bookmarks".toLowerCase() ? "active" : ""}`} >
                 <i className="bi bi bi-bookmark-fill wd-icon-width  mt-1"></i> Bookmarks
             </Link>
-            <Link to={"/"} className={`list-group-item ${active == "Lists".toLowerCase() ? "active" : ""}`} >
+            <Link to={"/"} className={`list-group-item ${active === "Lists".toLowerCase() ? "active" : ""}`} >
                 <i className="bi bi-list-ul wd-icon-width  mt-1"></i> Lists
             </Link>
-            <Link to={"/"} className={`list-group-item ${active == "Profile".toLowerCase() ? "active" : ""}`} >
+            <Link to={"/"} className={`list-group-item ${active === "Profile".toLowerCase() ? "active" : ""}`} >
                 <i className="bi bi-person-fill wd-icon-width  mt-1"></i> Profile
             </Link>
 
-            <Link to={"/"} className={`list-group-item ${active == "More".toLowerCase() ? "active" : ""}`} >
+            <Link to={"/"} className={`list-group-item ${active === "More".toLowerCase() ? "active" : ""}`} >
                 <i className="bi bi-filter-circle-fill wd-icon-width  mt-1"></i> More
             </Link>
 
