@@ -29,7 +29,7 @@ const NavigationSidebar = () => {
             <Link to={"/"} className={`list-group-item ${active === "Lists".toLowerCase() ? "active" : ""}`} >
                 <i className="bi bi-list-ul wd-icon-width  mt-1"></i> Lists
             </Link>
-            <Link to={"/"} className={`list-group-item ${active === "Profile".toLowerCase() ? "active" : ""}`} >
+            <Link to={"/tuiter/profile"} className={`list-group-item ${active === "Profile".toLowerCase() ? "active" : ""}`} >
                 <i className="bi bi-person-fill wd-icon-width  mt-1"></i> Profile
             </Link>
 
