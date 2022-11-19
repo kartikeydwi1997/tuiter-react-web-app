@@ -1,9 +1,7 @@
 import axios from 'axios';
-const newLocal = 'https://tuiter-node-server-app-kartik.herokuapp.com/api/tuits';
-// const TUITS_API = 'http://localhost:4000/api/tuits';
-// const TUITS_APInewLocalts';
 const API_BASE = process.env.REACT_APP_API_BASE;
 const TUITS_API = `${API_BASE}/tuits`;
+
 export const createTuit = async (tuit) => {
     const response = await axios.post(TUITS_API, tuit)
     return response.data;
@@ -22,7 +20,6 @@ export const deleteTuit = async (tid) => {
 }
 
 export const updateTuit = async (tuit) => {
-    const response = await axios
-        .put(`${TUITS_API}/${tuit._id}`, tuit);
+    await axios.put(`${TUITS_API}/${tuit._id}`, tuit);
     return tuit;
 }
